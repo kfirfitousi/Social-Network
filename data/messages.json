@@ -1,0 +1,346 @@
+[
+  {
+    "id": 1,
+    "from": 1,
+    "fromName": "User 1",
+    "to": 2,
+    "content": "Message from user 1 to user 2",
+    "created": "2022-02-12T12:42:30.041Z"
+  },
+  {
+    "id": 2,
+    "from": 2,
+    "fromName": "User 2",
+    "to": 1,
+    "content": "Message from user 2 to user 1",
+    "created": "2022-02-12T12:42:30.119Z"
+  },
+  {
+    "id": 3,
+    "from": 0,
+    "fromName": "admin",
+    "to": 1,
+    "content": "Admin message",
+    "created": "2022-02-12T12:42:30.202Z"
+  },
+  {
+    "id": 4,
+    "from": 0,
+    "fromName": "admin",
+    "to": 2,
+    "content": "Admin message",
+    "created": "2022-02-12T12:42:30.202Z"
+  },
+  {
+    "id": 5,
+    "from": 2,
+    "fromName": "User 2",
+    "to": 1,
+    "content": "Message from user 2 to user 1",
+    "created": "2022-02-12T14:50:03.779Z"
+  },
+  {
+    "id": 6,
+    "from": 2,
+    "fromName": "User 2",
+    "to": 1,
+    "content": "Message from user 2 to user 1",
+    "created": "2022-02-12T15:10:50.681Z"
+  },
+  {
+    "id": 7,
+    "from": 2,
+    "fromName": "User 2",
+    "to": 1,
+    "content": "Message from user 2 to user 1",
+    "created": "2022-02-12T16:03:38.467Z"
+  },
+  {
+    "id": 8,
+    "from": 2,
+    "fromName": "User 2",
+    "to": 1,
+    "content": "Message from user 2 to user 1",
+    "created": "2022-02-12T16:05:25.159Z"
+  },
+  {
+    "id": 9,
+    "from": 0,
+    "fromName": "admin",
+    "to": 1,
+    "content": "hello",
+    "created": "2022-02-13T10:25:05.467Z"
+  },
+  {
+    "id": 10,
+    "from": 0,
+    "fromName": "admin",
+    "to": 1,
+    "content": "Admin message test",
+    "created": "2022-02-13T10:26:45.692Z"
+  },
+  {
+    "id": 11,
+    "from": 0,
+    "fromName": "admin",
+    "to": 2,
+    "content": "Admin message test",
+    "created": "2022-02-13T10:26:45.692Z"
+  },
+  {
+    "id": 12,
+    "from": 0,
+    "fromName": "admin",
+    "to": 3,
+    "content": "Admin message test",
+    "created": "2022-02-13T10:26:45.692Z"
+  },
+  {
+    "id": 13,
+    "from": 1,
+    "fromName": "User 1",
+    "to": 0,
+    "content": "Hi admin",
+    "created": "2022-02-13T10:29:22.559Z"
+  },
+  {
+    "id": 14,
+    "from": 3,
+    "fromName": "User 3",
+    "to": 0,
+    "content": "Hello admin",
+    "created": "2022-02-13T13:27:07.593Z"
+  },
+  {
+    "id": 15,
+    "from": 3,
+    "fromName": "User 3",
+    "to": 3,
+    "content": "test",
+    "created": "2022-02-13T13:46:34.237Z"
+  },
+  {
+    "id": 16,
+    "from": 1,
+    "fromName": "User 1",
+    "to": 3,
+    "content": "Hello",
+    "created": "2022-02-13T14:25:37.350Z"
+  },
+  {
+    "id": 17,
+    "from": 1,
+    "fromName": "User 1",
+    "to": 3,
+    "content": "Hi again",
+    "created": "2022-02-13T14:26:21.526Z"
+  },
+  {
+    "id": 18,
+    "from": 0,
+    "fromName": "admin",
+    "to": 1,
+    "content": "another admin message test",
+    "created": "2022-02-13T16:58:20.385Z"
+  },
+  {
+    "id": 19,
+    "from": 0,
+    "fromName": "admin",
+    "to": 2,
+    "content": "another admin message test",
+    "created": "2022-02-13T16:58:20.385Z"
+  },
+  {
+    "id": 20,
+    "from": 0,
+    "fromName": "admin",
+    "to": 3,
+    "content": "another admin message test",
+    "created": "2022-02-13T16:58:20.385Z"
+  },
+  {
+    "id": 21,
+    "from": 0,
+    "fromName": "admin",
+    "to": 5,
+    "content": "another admin message test",
+    "created": "2022-02-13T16:58:20.385Z"
+  },
+  {
+    "id": 22,
+    "from": 0,
+    "fromName": "admin",
+    "to": 6,
+    "content": "another admin message test",
+    "created": "2022-02-13T16:58:20.385Z"
+  },
+  {
+    "id": 23,
+    "from": 3,
+    "fromName": "User 3",
+    "to": 3,
+    "content": "multiline\nmessage\ntest\nmany\nlines\none\ntwo\nthree",
+    "created": "2022-02-13T17:21:00.396Z"
+  },
+  {
+    "id": 24,
+    "from": 0,
+    "fromName": "admin",
+    "to": 1,
+    "content": "hi",
+    "created": "2022-02-13T17:30:36.228Z"
+  },
+  {
+    "id": 25,
+    "from": 3,
+    "fromName": "User 3",
+    "to": 1,
+    "content": "Sent from my Samsung Galaxy smartphone",
+    "created": "2022-02-13T20:59:13.258Z"
+  },
+  {
+    "id": 26,
+    "from": 2,
+    "fromName": "User 2",
+    "to": 1,
+    "content": "hey",
+    "created": "2022-02-13T21:23:02.524Z"
+  },
+  {
+    "id": 27,
+    "from": 2,
+    "fromName": "User 2",
+    "to": 1,
+    "content": "hello",
+    "created": "2022-02-13T21:25:33.797Z"
+  },
+  {
+    "id": 28,
+    "from": 1,
+    "fromName": "User 1",
+    "to": 3,
+    "content": "hey",
+    "created": "2022-02-14T16:55:02.391Z"
+  },
+  {
+    "id": 29,
+    "from": 3,
+    "fromName": "User 3",
+    "to": 1,
+    "content": "Hey user 1",
+    "created": "2022-02-14T16:57:01.839Z"
+  },
+  {
+    "id": 30,
+    "from": 0,
+    "fromName": "admin",
+    "to": 3,
+    "content": "hi",
+    "created": "2022-02-14T19:56:57.510Z"
+  },
+  {
+    "id": 31,
+    "from": 0,
+    "fromName": "admin",
+    "to": 3,
+    "content": "hi",
+    "created": "2022-02-14T19:58:31.613Z"
+  },
+  {
+    "id": 32,
+    "from": 0,
+    "fromName": "admin",
+    "to": 2,
+    "content": "test",
+    "created": "2022-02-14T20:00:59.391Z"
+  },
+  {
+    "id": 33,
+    "from": 0,
+    "fromName": "admin",
+    "to": 3,
+    "content": "test",
+    "created": "2022-02-14T20:01:03.973Z"
+  },
+  {
+    "id": 34,
+    "from": 0,
+    "fromName": "admin",
+    "to": 3,
+    "content": "hello",
+    "created": "2022-02-14T20:30:43.836Z"
+  },
+  {
+    "id": 35,
+    "from": 0,
+    "fromName": "admin",
+    "to": 3,
+    "content": "test",
+    "created": "2022-02-14T20:31:30.213Z"
+  },
+  {
+    "id": 36,
+    "from": 0,
+    "fromName": "admin",
+    "to": 1,
+    "content": "admin message test",
+    "created": "2022-02-14T20:33:19.478Z"
+  },
+  {
+    "id": 37,
+    "from": 0,
+    "fromName": "admin",
+    "to": 2,
+    "content": "admin message test",
+    "created": "2022-02-14T20:33:19.478Z"
+  },
+  {
+    "id": 38,
+    "from": 0,
+    "fromName": "admin",
+    "to": 3,
+    "content": "admin message test",
+    "created": "2022-02-14T20:33:19.478Z"
+  },
+  {
+    "id": 39,
+    "from": 0,
+    "fromName": "admin",
+    "to": 5,
+    "content": "admin message test",
+    "created": "2022-02-14T20:33:19.478Z"
+  },
+  {
+    "id": 40,
+    "from": 0,
+    "fromName": "admin",
+    "to": 6,
+    "content": "admin message test",
+    "created": "2022-02-14T20:33:19.478Z"
+  },
+  {
+    "id": 41,
+    "from": 0,
+    "fromName": "admin",
+    "to": 7,
+    "content": "admin message test",
+    "created": "2022-02-14T20:33:19.478Z"
+  },
+  {
+    "id": 42,
+    "from": 1,
+    "fromName": "User 1",
+    "to": "2",
+    "content": "Hey\nSent from my Samsung Galaxy smartphone",
+    "created": "2022-02-15T14:49:30.398Z"
+  },
+  {
+    "id": 43,
+    "from": 1,
+    "fromName": "User 1",
+    "to": "0",
+    "content": "Hey admin 😄",
+    "created": "2022-02-15T22:02:54.120Z"
+  }
+]

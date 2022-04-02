@@ -1,0 +1,23 @@
+{
+  "name": "ex3",
+  "version": "1.0.0",
+  "description": "javascript ex3",
+  "main": "server.js",
+  "scripts": {
+    "build": "cd public/src && npx babel --presets babel-preset-react App.jsx --out-dir ../js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}

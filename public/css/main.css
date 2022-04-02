@@ -1,0 +1,379 @@
+:root {
+    --background-color: #f1f7ee;
+    --main-color: #b0bea9;
+    --secondary-color: #596157;
+    --accent-color: #e0edc5;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    width: 150px;
+    margin: 5vh auto 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container h1 {
+    display: inline-block;
+    margin: 1rem 0rem 1rem 0;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto 0.5rem;
+}
+
+.column input {
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.column button {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0.25rem 0;
+    min-height: 1.8rem;
+}
+
+.column h1 {
+    margin-bottom: 0.5rem;
+}
+
+.column .alert {
+    margin: 0.25rem 0;
+}
+
+.navbar {
+    background-color: var(--secondary-color);
+}
+
+.navbar li:hover:not(.greet) {
+    background-color: var(--main-color);
+}
+
+.navbar ul {
+    display: flex;
+    max-width: 600px;
+    height: 5vh;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    color: var(--accent-color);
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    height: 100%;
+    min-width: fit-content;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.navbar li.pending:after {
+    content: "+";
+    display: inline;
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    border-radius: 50%;
+    margin-left: 0.2rem;
+    width: 0.8em;
+    height: 0.8em;
+    line-height: 0.8em;
+    text-align: center;
+}
+
+.navbar a {
+    color: var(--background-color);
+    text-decoration: none;
+}
+
+.navbar li.greet {
+    margin-left: auto;
+    min-width: fit-content;
+}
+
+.navbar a.logout {
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+
+.alert {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.message,
+.post,
+.request {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    margin: 0 0 1rem 0;
+    padding: 0.1rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.post.featured {
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+}
+
+.content {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.newPost {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+.newPost .alert {
+    margin-top: 0;
+}
+
+.newMessage {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    margin-bottom: 10rem;
+}
+
+.newMessage .row {
+    min-height: 50px;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.newMessage input {
+    width: 33.3%;
+    margin: 0.5rem 0 0 0.5rem;
+    min-height: 50px;
+    height: 5vh;
+}
+
+.newMessage button {
+    width: 66.6%;
+}
+
+.newMessage .alert {
+    margin: 1rem 0.5rem;
+}
+
+.messageAll {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 10rem;
+}
+
+.requests {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.request {
+    margin-right: 1rem;
+}
+
+.request button {
+    min-height: 30px;
+    padding: 0.5rem;
+    margin: 0 0.2rem;
+}
+
+.setStatus .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 5vh;
+}
+
+.setStatus input {
+    max-width: 65px;
+    min-height: 2rem;
+    margin-right: 0.1rem;
+}
+
+.setStatus button {
+    margin: 0 0.1rem;
+    min-height: 2rem;
+}
+
+.setStatus .alert {
+    margin: 0.5rem auto;
+    width: fit-content;
+}
+
+button {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border-radius: 0.5rem;
+    border: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+}
+
+button.big {
+    min-height: 50px;
+    height: 5vh;
+    font-size: 1rem;
+}
+
+button.plus {
+    padding: 0;
+    font-size: 1.5rem;
+    min-width: 1.5rem;
+    font-weight: bold;
+    transform: translateY(-0.1rem);
+}
+
+input {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+textarea {
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    font-size: 1rem;
+    resize: none;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 0 0.5rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.small {
+    font-size: 0.8rem;
+}
+
+.thin:not(b) {
+    font-weight: 100;
+}
+
+/* hide arrows from number input box */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* override placeholder font */
+::-webkit-input-placeholder {
+    font-family: "Open Sans", sans-serif;
+    color: var(--accent-color);
+}
+:-moz-placeholder {
+    font-family: "Open Sans", sans-serif;
+    color: var(--accent-color);
+}
+::-moz-placeholder {
+    font-family: "Open Sans", sans-serif;
+    color: var(--accent-color);
+}
+
+@media (max-width: 620px) {
+    .container {
+        max-width: 95%;
+    }
+
+    .navbar ul {
+        max-width: 95%;
+        height: auto;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .navbar a {
+        width: 33.3%;
+    }
+
+    .navbar li {
+        padding: 0.5rem;
+    }
+
+    .navbar li.greet {
+        min-width: 33.3%;
+        max-width: 66.6%;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 0.8em;
+        white-space: nowrap;
+    }
+
+    .navbar a.logout {
+        margin-left: auto;
+    }
+
+    button.big {
+        font-size: 1.2rem !important;
+    }
+
+    .thin:not(b) {
+        font-weight: 400 !important;
+    }
+}
+
+/* move navbar to bottom on mobile
+fixed ovelap with phone navbar
+looks ok on my phone (checked both chrome and firefox) */
+@media (max-width: 428px) {
+    header {
+        position: fixed;
+        top: calc(90vh - 58px);
+        z-index: 1;
+    }
+}

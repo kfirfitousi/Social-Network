@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "name": "admin",
+    "email": "admin@example.com",
+    "_password": "$2b$10$B4Krzo6JEn/TlLk0jvrNBOmMIEfdUdunlFavARRUIqM6ZEhhSu9Ny",
+    "created": "2021-12-16T16:00:00.000Z",
+    "status": "active"
+  },
+  {
+    "id": 1,
+    "name": "User 1",
+    "email": "user1@example.com",
+    "_password": "$2b$10$9CX2TsZrl5/4aifYYYk.GeXjqkqJS1xmoxx5DsobX1lNvJLSBNzQm",
+    "created": "2022-02-12T12:42:28.733Z",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "User 2",
+    "email": "user2@example.com",
+    "_password": "$2b$10$6ohHiOpF8yedc1YoZjNcEudJ6dYokVmrL.B3jjLSGR1JYxooshZKG",
+    "created": "2022-02-12T12:42:28.874Z",
+    "status": "suspended"
+  },
+  {
+    "id": 3,
+    "name": "User 3",
+    "email": "user3@example.com",
+    "_password": "$2b$10$3Pvs.FyvKQivBuhhF4H4qeO5180j73VPY2sWfgPPkZSdx6wddStAK",
+    "created": "2022-02-12T18:47:15.316Z",
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "name": "User 4",
+    "email": "user4@example.com",
+    "_password": "$2b$10$v8X8T/y3NXKOX/CN01c6aOSjWa2.mb7QOzcPTMBw7Mnw213V5vJUK",
+    "created": "2022-02-13T13:17:15.927Z",
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "name": "User 5",
+    "email": "user5@example.com",
+    "_password": "$2b$10$rxdT0kQk4lFbEYVVzKXKveuJ3nwzOBEhsbtgMzvESbh/kVtpiXDIa",
+    "created": "2022-02-13T13:21:45.913Z",
+    "status": "created"
+  },
+  {
+    "id": 6,
+    "name": "User 6",
+    "email": "user6@example.com",
+    "_password": "$2b$10$luWCbxt1OTbJ7Ns2JN1z0OC3.rTLJ96j859RNAM.uhlRRGYFBOFgy",
+    "created": "2022-02-14T17:30:24.991Z",
+    "status": "created"
+  },
+  {
+    "id": 7,
+    "name": "User 7",
+    "email": "user7@example.com",
+    "_password": "$2b$10$hCCPMTVwhKK1ESMfZpT3F.Uw9uFWz1xmLgEPzi4/Ed016EZuj4tBq",
+    "created": "2022-02-15T10:25:33.037Z",
+    "status": "created"
+  },
+  {
+    "id": 8,
+    "name": "User 8",
+    "email": "user8@example.com",
+    "_password": "$2b$10$3tpBH2WOFIZ/qxcPbBnOiuYUV1mi1TqtWfBlUzMXiGoVmFoAdvjtO",
+    "created": "2022-02-15T10:26:33.202Z",
+    "status": "created"
+  }
+]
