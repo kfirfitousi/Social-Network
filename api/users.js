@@ -14,7 +14,8 @@ router.post('/users', async (req, res) => {
         user = await createUser(req.body)
     } 
     catch (err) {
-        return res.status(err.code).send(JSON.stringify({message: err.message}))
+        console.log({err}) // ** debugging **
+        return res.status(err.code).send(err)
     }
 
     res.status(201).send(JSON.stringify(user, null, 2)) // created
