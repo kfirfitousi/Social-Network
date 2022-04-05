@@ -1,5 +1,4 @@
 const express = require('express')
-const cookieParser = require('cookie-parser')
 const apiRoutes = require('./api')
 const routes = require('./routes')
 
@@ -32,7 +31,6 @@ const setContentType = function (req, res, next) {
 app.use(setContentType) // set Content-Type to JSON
 app.use(express.json())  // to support JSON-encoded bodies
 app.use(express.urlencoded({ extended: true })) // to support URL-encoded bodies
-app.use(cookieParser())
 //app.use(express.static('public'))
 app.use(routes)
 app.use('/api', ...apiRoutes)
